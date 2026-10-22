@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app with GitHub Actions CI/CD and Docker Hub publishing",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
